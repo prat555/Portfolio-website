@@ -158,7 +158,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     width:5px;
 }
 .menu-ui-design::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 10px #000;
+    -webkit-box-shadow: inset 0 0 8px #000;
 }
 .menu-ui-design::-webkit-scrollbar-thumb {
   background-color: #d92cf9;
@@ -328,17 +328,18 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 
 .education {
-    background:  #fff;
+    background:  #f9fbfd;
     padding-top:  50px;
-    border-bottom: 1px solid #e8e8e8;
 }
 .education-horizontal-timeline {
     padding: 80px 0;
-    padding-left: 110px;
 }
 
 /*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
+.education-horizontal-timeline .col-sm-4 {
+    flex: 0 0 auto;
+    margin: 0 15px; /* Adjust the margin as needed */
+}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
@@ -361,7 +362,6 @@ span.single-timeline-horizontal {
     background: #b2c1ce;
     height:  1px;
     width: 380px;
-    padding-left: 150px;
 }
 span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.timeline-horizontal-border*/
@@ -371,12 +371,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills{
-    background: #f9fbfd;
+.skills {
+    
 }
 .skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 80px;
-padding-left: 110px;}
+.single-skill-content{padding-top: 100px;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -399,7 +398,24 @@ padding-left: 110px;}
     font-size: 16px;
     text-transform: uppercase;
 }
-
+.progress {
+    border-radius:3px;
+    overflow: visible;
+    background: #e6ecf3;
+    height:8px;
+    margin-top: 15px;
+    width: 85%;
+    margin-bottom: 37px;
+}
+.progress-bar {
+   background: #b636ff;
+    border-radius: 3px;
+   -webkit-transition: width 1.5s ease-in-out;
+   -ms-transition: width 1.5s ease-in-out;
+   -moz-transition: width 1.5s ease-in-out;
+   -o-transition: width 1.5s ease-in-out;
+   transition: width 1.5s ease-in-out;
+}
 .tooltip{
    position:relative;
    float:right;
@@ -421,6 +437,7 @@ padding-left: 110px;}
    margin-left: 0;
 }
 
+
 /*-------------------------------------
         7. Experience
 -------------------------------------*/
@@ -428,7 +445,7 @@ padding-left: 110px;}
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
 }
-.experience-content {padding-top: 100px; padding-left: 80px; border-bottom: 1px solid #e8e8e8;}
+.experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
 
 /*experience-time*/
@@ -507,55 +524,32 @@ padding-left: 110px;}
         8. My Photos
 --------------------------------------*/
 
-.photos{
+.photos {
     background: #fff;
     padding-top: 30px;
 }
+
 .photos-content {
-    margin-top: 30px; /* Adjust as needed */
+    margin-top: 30px;
+    position: relative;
 }
 
 .photo-slider {
     position: relative;
+    max-width: 100%;
     overflow: hidden;
 }
 
 .photo-item {
-    display: flex;
+    display: none;
+    width: 100%;
+    text-align: center;
 }
 
-/* Show the first slide initially */
-#slide1:checked ~ .photo-item:nth-child(1),
-#slide2:checked ~ .photo-item:nth-child(2),
-#slide3:checked ~ .photo-item:nth-child(3) {
-    display: block;
+.photo-item img {
+    width: 60%;
+    height: auto;
 }
-
-/* Navigation Arrows */
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    color: #fff;
-    cursor: pointer;
-    background-color: #333;
-    padding: 10px;
-    opacity: 0.7;
-}
-
-.prev:hover, .next:hover {
-    opacity: 1;
-}
-
-.prev {
-    left: 0;
-}
-
-.next {
-    right: 0;
-}
-
 
 /*-------------------------------------
         9. Profiles
