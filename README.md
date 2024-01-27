@@ -3,4 +3,4 @@ I've designed my portfolio website using a combination of HTML, CSS, and JavaScr
 
 Do check out it out using the following link:
 
-[Link](pratyushg.netlify.app)
+(pratyushg.netlify.app)
