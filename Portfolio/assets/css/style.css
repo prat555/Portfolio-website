@@ -242,7 +242,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {background: #f9fbfd; padding: 50px 0 100px; border-bottom: 1px solid #e8e8e8}
+.about {background: #f6fafd; padding: 50px 0 100px; border-bottom: 1px solid #e8e8e8}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -328,7 +328,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 
 .education {
-    background:  #f9fbfd;
+    background:  #fff;
     padding-top:  50px;
 }
 .education-horizontal-timeline {
@@ -372,7 +372,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         6.  Skills
 --------------------------------------*/
 .skills {
-    
+    background: #f6fafd;
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
@@ -442,6 +442,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
+    background: #f6fafd;
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
 }
@@ -555,7 +556,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         9. Profiles
 --------------------------------------*/
 .profiles {
-    background-color: #f9fbfd;
+    background-color: #f6fafd;
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
 }
@@ -632,7 +633,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         10. Contact
 --------------------------------------*/
 .contact {
-    background: #f9fbfd;
+    background: #f6fafd;
     padding: 50px 0 100px;
     border-bottom: 1px solid #e8e8e8;
 }
@@ -725,9 +726,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {
-   
-}
+
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
