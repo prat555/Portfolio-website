@@ -464,6 +464,20 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: uppercase;
 }
 /*experience-time*/
+/* Experience Skills Tags */
+.experience-skills {
+    margin-top: 15px;
+}
+.experience-skills span {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 3px 10px;
+    margin: 3px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
 
 /*main-timeline*/
 .main-timeline{
